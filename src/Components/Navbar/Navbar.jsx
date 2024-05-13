@@ -12,16 +12,16 @@ const Navbar = () => {
           <div className="text-white">
             <ul class="flex items-center gap-6 text-xl py-4">
               <li class="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
-                  <a href="#" class=" hover:text-yellow-200">About</a>
+                  <a href="#/" className=" hover:text-yellow-100">About</a>
               </li>
               <li class="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
-                  <a href="#" class=" hover:text-yellow-200">Technology</a>
+                  <a href="#/" className=" hover:text-yellow-100">Technology</a>
               </li>
               <li class="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
-                  <a href="#" class=" hover:text-yellow-200">Galaxy</a>
+                  <a href="#/" className=" hover:text-yellow-100">Galaxy</a>
               </li>
               <li class="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
-                  <a href="#" class=" hover:text-yellow-200">Satellite</a>
+                  <a href="#/" className=" hover:text-yellow-100">Satelite</a>
               </li>
             </ul>
           </div>
