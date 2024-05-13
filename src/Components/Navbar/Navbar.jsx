@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='fixed top-0 right-0 w-full z-50 bg-black/10 backdrop-blur-sm py-4 sm:py-4'>
       <div className="container">
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-4 text-white font-bold text-2xl">
+          <div className="flex items-center gap-4 text-white font-bold text-2xl pl-3">
               <img src={Logo} alt="" className='w-10'/>
               <span>MOY-SPACE</span>
           </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className='pr-10'>
             <button className="text-white border-2 px-3 py-1 rounded-md">Login</button>
           </div>
         </div>
