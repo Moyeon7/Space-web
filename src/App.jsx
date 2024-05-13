@@ -1,5 +1,6 @@
 import React from 'react'
 import earthVideo from './imgs/earthVideo.mp4'
+import Navbar from "./Components/Navbar/Navbar.jsx"
 const App = () => {
   return (
     <div>
@@ -7,6 +8,7 @@ const App = () => {
         <video autoPlay muted loop className='fixed right-0 top-0 h-[700px] w-full object-cover z[-1]'>
           <source src={earthVideo} type='video/mp4'/>
         </video>
+        <Navbar/>
       </div>
     </div>
   )
