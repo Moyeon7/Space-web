@@ -1,6 +1,7 @@
 import React from 'react'
 import earthVideo from './imgs/earthVideo.mp4'
 import Navbar from "./Components/Navbar/Navbar.jsx"
+import Hero from "./Components/Hero/Hero.jsx"
 const App = () => {
   return (
     <div>
@@ -9,6 +10,7 @@ const App = () => {
           <source src={earthVideo} type='video/mp4'/>
         </video>
         <Navbar/>
+        <Hero/>
       </div>
     </div>
   )
