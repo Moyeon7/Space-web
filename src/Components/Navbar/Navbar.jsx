@@ -5,28 +5,28 @@ const Navbar = () => {
     <div className='fixed top-0 right-0 w-full z-50 bg-black/10 backdrop-blur-sm py-4 sm:py-4'>
       <div className="container">
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-4 text-white font-bold text-2xl pl-3 pr-8">
+          <div className="flex items-center gap-4 text-white font-bold text-2xl pl-3">
               <img src={Logo} alt="" className='w-10'/>
               <span>MOY-SPACE</span>
           </div>
-          <div className="text-white pl-20">
-            <ul class="flex items-center gap-6 text-xl py-4 ">
-              <li class="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
+          <div className="text-white item-center sm:pl-11 sm:pr-7">
+            <ul className="flex items-center gap-6 text-xl py-4">
+              <li className="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
                   <a href="#/" className=" hover:text-yellow-100">About</a>
               </li>
-              <li class="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
+              <li className="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
                   <a href="#/" className=" hover:text-yellow-100">Technology</a>
               </li>
-              <li class="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
+              <li className="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
                   <a href="#/" className=" hover:text-yellow-100">Galaxy</a>
               </li>
-              <li class="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
+              <li className="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
                   <a href="#/" className=" hover:text-yellow-100">Satelite</a>
               </li>
             </ul>
           </div>
-          <div className='pr-10 sm:pl-10'>
-            <button className="text-white border-2 px-3 py-1 rounded-md">Login</button>
+          <div className='pr-10 sm:pr-3'>
+            <button className="text-white border-2 px-3 py-1 rounded-md hover:bg-yellow-100 hover:text-black">Login</button>
           </div>
         </div>
       </div>
