@@ -73,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Space-web
 Simple website using reactjs and tailwindcss
 >>>>>>> e137762b74a4c1083bef805379e915841cfbc305
+
+
+CURRENTLY TAKEN A BREAK CUZ OF EXAMS!
