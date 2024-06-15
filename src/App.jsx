@@ -3,6 +3,8 @@ import earthVideo from './imgs/earthVideo.mp4'
 import Navbar from "./Components/Navbar/Navbar.jsx"
 import Hero from "./Components/Hero/Hero.jsx"
 import Servicess from "./Components/Servicess/Servicess.jsx"
+import Banner from "./Components/Banner/Banner.jsx"
+import Banner2 from "./Components/Banner/Banner2.jsx"
 const App = () => {
   return (
     <div>
@@ -15,6 +17,8 @@ const App = () => {
       </div>
       {/* services section */}
       <Servicess/>
+      <Banner/>
+      <Banner2/>
     </div>
   )
 }
