@@ -9,7 +9,7 @@ const Navbar = () => {
               <img src={Logo} alt="" className='w-10'/>
               <span>MOY-SPACE</span>
           </div>
-          <div className="text-white item-center sm:pl-11 sm:pr-7">
+          <div className="text-white sm:pl-11 sm:pr-7">
             <ul className="flex items-center gap-6 text-xl py-4">
               <li className="transition duration-300 ease-in-out transform hover:tracking-wider hover:underline hover:underline-offset-8">
                   <a href="#/" className=" hover:text-yellow-100">About</a>
