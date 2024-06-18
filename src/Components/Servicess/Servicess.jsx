@@ -33,12 +33,11 @@ const Servicess = () => {
         <div className='min-h-[400px] pb-0'>
             <div className='grid grid-cols-1 sm:grid-cols-3 relative z-10 gap-6'>
                 {ServiceData.map((data,index)=>
-                (<div className='mx-auto min-h-[180px] gap-2 py-8 px-3 flex flex-col justify-center items-center rounded-xl bg-sky-900/60 text-center backdrop-blur-sm text-2xl w-full lg:w-[300px]'>
+                (<div data-aos="fade-up" data-aos-delay={data.aosDelay} className='mx-auto min-h-[180px] gap-2 py-8 px-3 flex flex-col justify-center items-center rounded-xl bg-sky-900/60 text-center backdrop-blur-sm text-2xl w-full lg:w-[300px]'>
                     {data.icon}
                     <h1>{data.title}</h1>
                     <p>{data.content}</p>
                     <p className='text-sm text-center'>{data.description}</p>
-                    {/* <p>{data.aosDelay}</p> */}
                   </div>
                 ))}
             </div>

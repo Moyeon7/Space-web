@@ -3,12 +3,12 @@ import mountain from "../../imgs/mountain.png"
 const Hero = () => {
   return (
     <div className='bg-black/20 h-full relative z-40'>
-      <div className='h-full flex justify-center items-center p-4'>
+      <div className='h-full flex justify-center items-center p-8'>
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-2">
-          <div className='text-white pl-20'>
-              <h1 className='text-5xl font-bold'>Orbit The Earth</h1>
-              <p className='py-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita exercitationem quidem id iure quam, repellat, harum aliquid ullam debitis iusto animi incidunt fugiat voluptatem error quis delectus autem? Rem, earum!</p>
-              <button className='primary-button'>learn more</button>
+          <div className='text-white mx-auto'>
+              <h1 data-aos="fade-up" className='text-5xl font-bold'>Orbit The Earth</h1>
+              <p data-aos="fade-up" data-aos-delay="300"  className='py-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita exercitationem quidem id iure quam, repellat, harum aliquid ullam debitis iusto animi incidunt fugiat voluptatem error quis delectus autem? Rem, earum!</p>
+              <button data-aos="fade-up" data-aos-delay="500"  className='primary-button'>learn more</button>
           </div>
         </div>
       </div>

@@ -5,7 +5,17 @@ import Hero from "./Components/Hero/Hero.jsx"
 import Servicess from "./Components/Servicess/Servicess.jsx"
 import Banner from "./Components/Banner/Banner.jsx"
 import Banner2 from "./Components/Banner/Banner2.jsx"
+import Footer from "./Components/Footer/Footer.jsx"
+import AOS from "aos"
+import "aos/dist/aos.css"
 const App = () => {
+  React.useEffect(()=>{
+    AOS.init({
+      duration: 1200,
+      easing: "ease-in-out",
+    });
+  });
+
   return (
     <div>
       <div className='h-[700px] relative'>
@@ -19,6 +29,7 @@ const App = () => {
       <Servicess/>
       <Banner/>
       <Banner2/>
+      <Footer/>
     </div>
   )
 }
